@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Webpage 1.2</title>
+<script>
+	function validateForm(){
+		var x = document.forms['form-name']['fname'].value;
+		if(x == ""){
+			alert('This field cannot be blank');
+			return false;
+		}
+	}
+</script>
+<link rel="stylesheet" type="text/css" href="02.css">
+<link href='//fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+</head>
+<body>
+<h1 class="main-heading"> Learning About Forms</h1>
+<div class="box-form">
+	<form name = 'form-name' onsubmit="return validateForm()">
+	<div class="name">Username<br> <input type="text" name="fname"><br></div>
+	<div class="pass">Password<br><input type="password" name="psw"><br></div>
+	<div class="sub"><input type="submit" value="Submit"></div>
+	</form>
+	</div>
+
+
+</body>
+
+</html>
