@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Webpage 1.6</title>
+<script>
+	function myfunction(){
+		document.getElementById('demo').innerHTML = 'Here is Javascript';
+
+	}
+</script>
+<link rel="stylesheet" type="text/css" href="02.css">
+<link href='//fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+</head>
+<body>
+<h1 class="main-heading">Javascript for HTML</h1>
+<hr>
+<div class="box" id="demo">Watch Out for Change</div>
+<button type="button" onclick="myfunction()">Click Here</button>
+<p class="sub-heading">Here we have used Javascript inside the head tag. We can also use it inside the body tag using the script tag. Another way to use javascript is to use it as an external script.</p>
+<hr>
+<h2 class="sub-heading">Javascript Major Uses</h2>
+<p> Using the "document.write()" function <br> This function is used to print strings,integers etc on screen, similar to cout in c++</p>
+<script>
+	document.write(23+23);
+</script>
+<hr>
+<h2 class="sub-heading"> Window Alert tag</h2>
+<script>
+	window.alert("Congratulations! YOU HAVE WON JACKPOT!! and used of shit like this")
+</script>
+<hr>
+<h2 class="sub-heading">Declaring Variables</h2>
+<p class="box"> In JS, new variables are declared using the "var" tag</p>
+<script>
+	var a = 30;
+	var b = 05;
+	document.write(a + b); // this is a comment ;)
+	console.log(a-b);
+	window.alert(a/b);
+</script>
+<hr>
+<h2 class="sub-heading">Functions in JS</h2>
+<script>
+	function multiply(a,b){
+		return a*b;
+	}
+	var c = multiply(34,54);
+	document.write(c);
+
+</script>
+<hr>
+<h2 class="sub-heading"> Objects in JS</h2>
+<p class="box"> In Javascript, we can decleare objects too</p>
+<script>
+	var student = {
+		name: "student1",
+		age : "age1",
+		course: "xyz1",
+
+	}
+	document.write(student.name)
+</script>
+<hr>
+<a href="js2.html">
+<h1 class="main-heading"> More On Javascript Here!</h1>
+</a>
+
+</body>
+
+</html>
