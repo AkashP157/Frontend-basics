@@ -1,0 +1,102 @@
+.head-image{
+	background-image: url('galaxy1.jpg');
+	width: 100%;
+	height: 500px;
+}
+.landing-image{
+	background-image: url('img12.jpg');
+	width: 100%;
+	height: 450px;
+}
+.box1{
+	width: 80%;
+	height: 40%;
+	padding-left: 180px;
+	
+}
+.main-heading{
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	padding-right: 200px;
+}
+.box2{
+	font-family: sans-serif;
+	size: 24px;
+	background-color: #fff;
+	color: white;
+	
+	
+}
+.sm4{
+	padding-top: 10px;
+	height: 50px;
+	text-align: center;
+	font-size: 24px;
+	color: black;
+	font-family: sans-serif;
+	border-color: white;	
+
+}
+.table-heading{
+	background-color: #F1F0FF;
+	text-align: center;
+}
+
+.sm8{
+	background-color: red;
+}
+.logo{
+	background-image: url('logo.png');
+	height: 100px;
+	text-align: center;
+	font-size: 20px;
+
+}
+.sm6{
+	background-color: #C3C3E5;
+}
+.tbl{
+	padding-top: 20px;
+}
+.left-box{
+	width: 100%;
+	height: 100%;
+	background-color: #DEE79C;
+
+}
+.theading{
+	background-color: #E7C39C;
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-top: 10px;
+	height: 20px;
+}
+.theading-blank{
+	background-color: #EFEBD6;
+	margin-top: 10px;
+	height: 50px;
+}
+.text-box{
+	text-align: right;
+	font-family: sans-serif;
+	font-size: 24px;
+
+}
+.col-1{
+	width: 10px;
+	height: 100%;
+	float: left;
+}
+.col-2{
+	width: 100px;
+	height: 100%;
+	float: left;
+}
+.row1{
+	width: 170px;
+	height: 50px;
+	background-color: #732C7B;
+}

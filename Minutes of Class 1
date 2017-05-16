@@ -1,0 +1,52 @@
+Minutes of Class 1
+
+Topics covered - HTML , CSS
+
+1) Details regarding basics of HTML
+	HTML is a markup language, different from other programming languages such as C++ or Python
+	HTML consists of tags. Each tag must have one opening and closing tag. 
+	Basic tags in HTML 	
+		<html>
+		<head>
+			-
+			-
+		</head>
+		<body>
+			-
+			-
+		</body>
+		</html>
+	Each tag must have an opening and closing tag.
+	Saving the file with extension .html and opening it in an browser, the browser compiles the html code and displays the webpage.
+	To comment in HTML, use <!-- (COMMENT) --> tags
+2) Tags covered
+	a) p - Paragraph
+	b) H1 , H2 ,H3 -- H7 - Heading tags, with decreasing font size(H1 the maximum)
+	c) a - Link tag (Syntax) -- <a href="**address of webpage**">(text/image)</a>
+	d) Image tag - <img src="**address of image**"> -- img is a special tag that doesnot have a closing tag.
+	e) Style attribute - There are different ways to format a webpage 
+		i) Inside a tag -- <p style = "font-family:sans-serif;">**text**</p>
+		ii) In the head tag -- <head>
+								<style> 
+								p
+								{ font-family:sans-serif;
+								}
+								</style>
+								</head>
+		iii) In external file termed as CSS
+3) CSS - It stands for Cascading Style Sheets. It is used to control the formatting of webpages externally.
+	a) Linking a css file to HTML file
+		add the link tag in head of the html file. (syntax --> <head> <link rel = "stylesheet" type = "text/css" href="**address of css file"> ** the link tag has no closing tag)
+	b)In the css file, each element/tag can be accessed. This is done as - 
+		example with p tag, accessing it from external css, and then changing its color
+		p{
+		color:blue;
+		}
+	b.1) If we need to change the color of one of the p tags, we can use id or class
+	In HTML code -->	<p id="id1">(text)</p>
+	In CSS code --> #id1{ color:red;	}
+	In HTML code --> <p class="class1">(text)</p>
+	In CSS code --> p.class1{ color: gray;	}
+	c) A class independent of a tag can also be defined in CSS, to do that 
+		CSS Code --> .class-name{ formatting }
+		The class-name can be added as the class value in various tags to add that formatting
